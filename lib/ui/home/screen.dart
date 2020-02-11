@@ -440,12 +440,12 @@ void onDocumentMouseDown(event) {
   if (running) {
     playAudio("nyanlooped.ogg");
     pauseAudio("nyanslow.ogg", true);
-    song.play();
-    song2.pause();
+    // song.play();
+    // song2.pause();
   } else {
     pauseAudio("nyanlooped.ogg");
     playAudio("nyanslow.ogg", true);
-    song.pause();
-    song2.play();
+    // song.pause();
+    // song2.play();
   }
 }
