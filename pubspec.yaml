@@ -1,0 +1,19 @@
+name: flutter_webxr_threejs
+description: An example of how to use Flutter in WebXR with ThreeJS
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  threejs_facade:
+    git: https://github.com/rodydavis/threejs-dart-facade
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
