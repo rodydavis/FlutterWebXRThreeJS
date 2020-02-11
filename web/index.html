@@ -83,7 +83,9 @@
         audio1.play();
       }
       function pauseAudio1(path) {
-        audio1.pause();
+        if (audio1 != undefined) {
+          audio1.pause();
+        }
       }
       function playAudio2(path) {
         audio2 = new Howl({
@@ -92,7 +94,9 @@
         audio2.play();
       }
       function pauseAudio2(path) {
-        audio2.pause();
+        if (audio2 != undefined) {
+          audio2.pause();
+        }
       }
     </script>
     <!-- This script installs service_worker.js to provide PWA functionality to
